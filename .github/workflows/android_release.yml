@@ -3,9 +3,9 @@ name: Android 64-bit Release
 on:
   push:
     branches:
-      - '*'        # 所有分支
+      - '*'
     tags:
-      - 'v*'       # 所有 v 开头的标签
+      - 'v*'
     paths-ignore:
       - 'docs/**'
   pull_request:
